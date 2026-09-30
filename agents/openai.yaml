@@ -1,0 +1,7 @@
+interface:
+  display_name: "Tracking Audit"
+  short_description: "Client-agnostic web tracking audit"
+  default_prompt: "Use $tracking-audit-template to audit a new client site and create an actionable tracking audit plan."
+
+policy:
+  allow_implicit_invocation: true
